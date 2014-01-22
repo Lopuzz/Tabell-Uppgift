@@ -1,0 +1,17 @@
+table{
+	border: 3px gray solid;
+}
+thead{
+	background: gray;
+	font-family: Verdana;
+}
+tbody{
+	border-top: 1px solid;
+	background: orange;
+}
+tr{
+	-webkit-transition: background-color 2s;
+}
+td:hover{
+	background-color: gray;
+}
